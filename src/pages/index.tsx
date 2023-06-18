@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div className="container mx-auto text-center flex flex-col lg:flex-row mt-4 lg:mt-0 gap-4 lg:gap-0 lg:justify-around items-center h-screen transition-all">
       <div className="flex flex-col gap-6">
-        <div className="text-2xl font-bold text-stroke text-black dark:text-white">
+        <div className="text-2xl text-black dark:text-white text-center lg:text-start">
           Hello world!
         </div>
         <div className="text-4xl font-black duration-150 px-4 lg:px-0">
